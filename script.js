@@ -48,7 +48,7 @@ window.addEventListener("load", function() {
           const pilotStatus = document.getElementById("pilotStatus");
           pilotStatus.innerHTML = `Pilot ${pilotName} is ready for launch`;
           const copilotStatus = document.getElementById("copilotStatus");
-          copilotStatus.innerHTML = `Co-pilot ${copilotName.value} is ready for launch`;
+          copilotStatus.innerHTML = `Co-pilot ${copilotName} is ready for launch`;
           const launchStatus = document.getElementById("launchStatus");
           launchStatus.innerHTML = "Shuttle not ready for launch";
           launchStatus.style.color = "red";
